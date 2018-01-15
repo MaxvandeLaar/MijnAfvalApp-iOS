@@ -7,23 +7,53 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		50473AB9200BCD2B005BF947 /* Countries.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50473AB8200BCD2B005BF947 /* Countries.swift */; };
+		50473ABB200BE2F1005BF947 /* Urls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50473ABA200BE2F1005BF947 /* Urls.swift */; };
+		50473ABD200BE35F005BF947 /* Garbage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50473ABC200BE35F005BF947 /* Garbage.swift */; };
+		50473ABF200C9D24005BF947 /* IconTabBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50473ABE200C9D24005BF947 /* IconTabBarItem.swift */; };
+		50473AC1200CB3A1005BF947 /* Upcoming.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50473AC0200CB3A1005BF947 /* Upcoming.swift */; };
+		5049BEC52009930A00C61943 /* Rules.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5049BEC42009930A00C61943 /* Rules.swift */; };
+		5049BEC8200A2D9600C61943 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5049BEC7200A2D9600C61943 /* Location.swift */; };
+		5049BECB200A2E5000C61943 /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5049BECA200A2E5000C61943 /* Address.swift */; };
+		5049BECD200A2EA700C61943 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5049BECC200A2EA700C61943 /* Utils.swift */; };
+		5049BECF200A2FD100C61943 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5049BECE200A2FD100C61943 /* String.swift */; };
 		50F53BC9200937A600E96286 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F53BC8200937A600E96286 /* AppDelegate.swift */; };
-		50F53BCB200937A600E96286 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F53BCA200937A600E96286 /* FirstViewController.swift */; };
-		50F53BCD200937A600E96286 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F53BCC200937A600E96286 /* SecondViewController.swift */; };
+		50F53BCB200937A600E96286 /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F53BCA200937A600E96286 /* DashboardViewController.swift */; };
+		50F53BCD200937A600E96286 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F53BCC200937A600E96286 /* SettingsViewController.swift */; };
 		50F53BD0200937A600E96286 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50F53BCE200937A600E96286 /* Main.storyboard */; };
 		50F53BD2200937A600E96286 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50F53BD1200937A600E96286 /* Assets.xcassets */; };
 		50F53BD5200937A600E96286 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50F53BD3200937A600E96286 /* LaunchScreen.storyboard */; };
+		50F53BDF20093AD800E96286 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F53BDE20093AD800E96286 /* UIColor.swift */; };
+		50F53BE920097EA600E96286 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F53BE820097EA600E96286 /* MapViewController.swift */; };
+		50F53BEC2009858A00E96286 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F53BEB2009858A00E96286 /* Constants.swift */; };
+		711180947F40621D31796CC5 /* Pods_MijnAfval.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C33DBF1B117EF41878CD68FA /* Pods_MijnAfval.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1668A11C88F721D524EE0063 /* Pods-MijnAfval.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MijnAfval.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MijnAfval/Pods-MijnAfval.debug.xcconfig"; sourceTree = "<group>"; };
+		50473AB8200BCD2B005BF947 /* Countries.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Countries.swift; sourceTree = "<group>"; };
+		50473ABA200BE2F1005BF947 /* Urls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Urls.swift; sourceTree = "<group>"; };
+		50473ABC200BE35F005BF947 /* Garbage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Garbage.swift; sourceTree = "<group>"; };
+		50473ABE200C9D24005BF947 /* IconTabBarItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconTabBarItem.swift; sourceTree = "<group>"; };
+		50473AC0200CB3A1005BF947 /* Upcoming.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Upcoming.swift; sourceTree = "<group>"; };
+		5049BEC42009930A00C61943 /* Rules.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rules.swift; sourceTree = "<group>"; };
+		5049BEC7200A2D9600C61943 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		5049BECA200A2E5000C61943 /* Address.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Address.swift; sourceTree = "<group>"; };
+		5049BECC200A2EA700C61943 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		5049BECE200A2FD100C61943 /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
 		50F53BC5200937A600E96286 /* MijnAfval.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MijnAfval.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		50F53BC8200937A600E96286 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		50F53BCA200937A600E96286 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		50F53BCC200937A600E96286 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		50F53BCA200937A600E96286 /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
+		50F53BCC200937A600E96286 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		50F53BCF200937A600E96286 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		50F53BD1200937A600E96286 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		50F53BD4200937A600E96286 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		50F53BD6200937A600E96286 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50F53BDE20093AD800E96286 /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		50F53BE820097EA600E96286 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		50F53BEB2009858A00E96286 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		C33DBF1B117EF41878CD68FA /* Pods_MijnAfval.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MijnAfval.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6424190C2B1223E14909BEC /* Pods-MijnAfval.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MijnAfval.release.xcconfig"; path = "Pods/Target Support Files/Pods-MijnAfval/Pods-MijnAfval.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +61,47 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				711180947F40621D31796CC5 /* Pods_MijnAfval.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		027B28D9D24A27B1D2255259 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1668A11C88F721D524EE0063 /* Pods-MijnAfval.debug.xcconfig */,
+				F6424190C2B1223E14909BEC /* Pods-MijnAfval.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5049BEC6200A2D8500C61943 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				5049BEC7200A2D9600C61943 /* Location.swift */,
+				50473ABC200BE35F005BF947 /* Garbage.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		5049BEC9200A2E4400C61943 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5049BECA200A2E5000C61943 /* Address.swift */,
+				50473AC0200CB3A1005BF947 /* Upcoming.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		50F53BBC200937A600E96286 = {
 			isa = PBXGroup;
 			children = (
 				50F53BC7200937A600E96286 /* MijnAfval */,
 				50F53BC6200937A600E96286 /* Products */,
+				027B28D9D24A27B1D2255259 /* Pods */,
+				87E67D2B4A24794C17717B27 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +116,66 @@
 		50F53BC7200937A600E96286 /* MijnAfval */ = {
 			isa = PBXGroup;
 			children = (
+				5049BEC9200A2E4400C61943 /* Models */,
+				5049BEC6200A2D8500C61943 /* Services */,
+				50F53BED200985A900E96286 /* Helpers */,
+				50F53BEA2009857600E96286 /* Structs */,
+				50F53BDD20093AB100E96286 /* Extensions */,
+				50F53BDC2009389C00E96286 /* Controllers */,
 				50F53BC8200937A600E96286 /* AppDelegate.swift */,
-				50F53BCA200937A600E96286 /* FirstViewController.swift */,
-				50F53BCC200937A600E96286 /* SecondViewController.swift */,
 				50F53BCE200937A600E96286 /* Main.storyboard */,
 				50F53BD1200937A600E96286 /* Assets.xcassets */,
 				50F53BD3200937A600E96286 /* LaunchScreen.storyboard */,
 				50F53BD6200937A600E96286 /* Info.plist */,
 			);
 			path = MijnAfval;
+			sourceTree = "<group>";
+		};
+		50F53BDC2009389C00E96286 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				50F53BE820097EA600E96286 /* MapViewController.swift */,
+				50F53BCA200937A600E96286 /* DashboardViewController.swift */,
+				50F53BCC200937A600E96286 /* SettingsViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		50F53BDD20093AB100E96286 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				50F53BDE20093AD800E96286 /* UIColor.swift */,
+				5049BECE200A2FD100C61943 /* String.swift */,
+				50473ABE200C9D24005BF947 /* IconTabBarItem.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		50F53BEA2009857600E96286 /* Structs */ = {
+			isa = PBXGroup;
+			children = (
+				50F53BEB2009858A00E96286 /* Constants.swift */,
+				5049BEC42009930A00C61943 /* Rules.swift */,
+				50473AB8200BCD2B005BF947 /* Countries.swift */,
+				50473ABA200BE2F1005BF947 /* Urls.swift */,
+			);
+			path = Structs;
+			sourceTree = "<group>";
+		};
+		50F53BED200985A900E96286 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				5049BECC200A2EA700C61943 /* Utils.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		87E67D2B4A24794C17717B27 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C33DBF1B117EF41878CD68FA /* Pods_MijnAfval.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +185,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 50F53BD9200937A600E96286 /* Build configuration list for PBXNativeTarget "MijnAfval" */;
 			buildPhases = (
+				37484732A18781DDFFE32B0E /* [CP] Check Pods Manifest.lock */,
 				50F53BC1200937A600E96286 /* Sources */,
 				50F53BC2200937A600E96286 /* Frameworks */,
 				50F53BC3200937A600E96286 /* Resources */,
+				4195655C01E6CB8D997228B9 /* [CP] Embed Pods Frameworks */,
+				1EF9DB75D671630874BB39E5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -134,14 +248,95 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1EF9DB75D671630874BB39E5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MijnAfval/Pods-MijnAfval-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		37484732A18781DDFFE32B0E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MijnAfval-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4195655C01E6CB8D997228B9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MijnAfval/Pods-MijnAfval-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Eureka/Eureka.framework",
+				"${BUILT_PRODUCTS_DIR}/PMAlertController/PMAlertController.framework",
+				"${BUILT_PRODUCTS_DIR}/PromiseKit/PromiseKit.framework",
+				"${BUILT_PRODUCTS_DIR}/ReachabilitySwift/Reachability.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftIcons/SwiftIcons.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Eureka.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PMAlertController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PromiseKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Reachability.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftIcons.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MijnAfval/Pods-MijnAfval-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		50F53BC1200937A600E96286 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				50F53BCD200937A600E96286 /* SecondViewController.swift in Sources */,
+				5049BECB200A2E5000C61943 /* Address.swift in Sources */,
+				5049BECF200A2FD100C61943 /* String.swift in Sources */,
+				50473ABF200C9D24005BF947 /* IconTabBarItem.swift in Sources */,
+				50F53BCD200937A600E96286 /* SettingsViewController.swift in Sources */,
+				50F53BE920097EA600E96286 /* MapViewController.swift in Sources */,
+				50F53BDF20093AD800E96286 /* UIColor.swift in Sources */,
+				50F53BEC2009858A00E96286 /* Constants.swift in Sources */,
+				5049BECD200A2EA700C61943 /* Utils.swift in Sources */,
+				5049BEC8200A2D9600C61943 /* Location.swift in Sources */,
 				50F53BC9200937A600E96286 /* AppDelegate.swift in Sources */,
-				50F53BCB200937A600E96286 /* FirstViewController.swift in Sources */,
+				5049BEC52009930A00C61943 /* Rules.swift in Sources */,
+				50473AC1200CB3A1005BF947 /* Upcoming.swift in Sources */,
+				50473ABB200BE2F1005BF947 /* Urls.swift in Sources */,
+				50473ABD200BE35F005BF947 /* Garbage.swift in Sources */,
+				50473AB9200BCD2B005BF947 /* Countries.swift in Sources */,
+				50F53BCB200937A600E96286 /* DashboardViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -201,6 +396,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)";
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -258,6 +454,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)";
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -276,6 +473,7 @@
 		};
 		50F53BDA200937A600E96286 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1668A11C88F721D524EE0063 /* Pods-MijnAfval.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -291,6 +489,7 @@
 		};
 		50F53BDB200937A600E96286 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6424190C2B1223E14909BEC /* Pods-MijnAfval.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
