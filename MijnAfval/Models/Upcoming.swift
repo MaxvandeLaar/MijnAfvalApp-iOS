@@ -20,6 +20,6 @@ final class Upcoming: Object {
 
 final class Item: Object{
     @objc dynamic var type: String = ""
-    @objc dynamic var date: String = ""
+    @objc dynamic var date: Date = Date()
 }
 

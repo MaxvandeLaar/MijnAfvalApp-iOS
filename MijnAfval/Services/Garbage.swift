@@ -10,6 +10,7 @@ import Foundation
 import PromiseKit
 import Alamofire
 import SwiftyJSON
+import SwiftDate
 
 class Garbage {
     func getUpcoming(zipcode: String, houseNumber: Int, houseNumberAddition: String? = "") -> Promise<Upcoming>  {
@@ -20,10 +21,23 @@ class Garbage {
                 switch response.result {
                 case .success(let value):
                     
-                    let json = JSON(value)
-                    print("JSON")
-                    print(json[0].date)
-                    let data: NSDictionary = ["id":0, "items": value]
+                    var json = JSON(value)
+          
+                    let region = Region(tz: TimeZoneName.europeAmsterdam, cal: CalendarName.gregorian, loc: LocaleName.dutch)
+
+                    var items = [Any]()
+                    for (key, _) in json.enumerated() {
+                        var item: Dictionary<String, Any> = [:]
+                        item["type"] = json[key]["type"].string!
+                        print(json[key]["date"])
+                        item["date"] = DateInRegion(string: json[key]["date"].string!, format: .iso8601(options: .withInternetDateTime), fromRegion: region)?.absoluteDate
+                        
+                        let regionDate = DateInRegion(absoluteDate: item["date"]! as! Date, in: region).string(custom: "dd-MM-yyyy")
+                        print(regionDate)
+                        items.append(item)
+                    }
+
+                    let data: NSDictionary = ["id":0, "items": items]
                     let upcoming = Upcoming(value: data)
                   
                     fulfill(upcoming)

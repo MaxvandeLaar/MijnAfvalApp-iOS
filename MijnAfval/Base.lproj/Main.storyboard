@@ -166,13 +166,17 @@
         <scene sceneID="BdS-l4-bpS">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="waN-Cs-sRz" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Dashboard" selectedImage="first" id="1Qx-EJ-GGO"/>
+                    <tabBarItem key="tabBarItem" title="Dashboard" badgeValue="0" selectedImage="first" id="1Qx-EJ-GGO" customClass="IconTabBarItem" customModule="MijnAfval" customModuleProvider="target">
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="string" keyPath="icon" value=".iosHome"/>
+                        </userDefinedRuntimeAttributes>
+                    </tabBarItem>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="kmh-xF-VKo">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <color key="barTintColor" red="0.26358020310000002" green="0.54210412500000005" blue="0.39531728630000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="barTintColor" red="0.18998533487319946" green="0.35768887400627136" blue="0.43821841478347778" alpha="1" colorSpace="calibratedRGB"/>
                         <textAttributes key="titleTextAttributes">
                             <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         </textAttributes>
@@ -195,6 +199,6 @@
         <image name="second" width="30" height="30"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="FDr-ox-Xdd"/>
+        <segue reference="Msg-qI-SeK"/>
     </inferredMetricsTieBreakers>
 </document>
