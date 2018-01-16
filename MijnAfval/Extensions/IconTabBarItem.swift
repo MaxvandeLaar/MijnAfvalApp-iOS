@@ -8,7 +8,20 @@
 
 import Foundation
 import UIKit
+import SwiftIcons
 
 class IconTabBarItem: UITabBarItem {
+    
+    var icon: String! {
+        didSet {
+            print("didSet font, font = \(self.icon)")
+        }
+    }
+    
+    override func awakeFromNib() {
+        super.awakeFromNib()
+        
+//        self.setIcon(icon: .ionicons(icon))
+    }
     
 }
