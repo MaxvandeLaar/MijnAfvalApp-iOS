@@ -9,7 +9,7 @@
 import Foundation
 
 struct Urls {
-    static let apiBaseUrl = "http://localhost:9090/"
+    static let apiBaseUrl = "http://84.28.229.26:9090/"
     static let apiVersion = "v1.0/"
     static let getSchedule = "garbage/getSchedule"
     static let getUpcoming = "garbage/upcoming"
